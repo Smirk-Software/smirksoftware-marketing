@@ -20,7 +20,7 @@ jobs:
         run: npm ci
 
       - name: Build website
-        run: npm build
+        run: npm run build
 
       - name: Push static content to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
